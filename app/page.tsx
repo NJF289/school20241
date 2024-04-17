@@ -2,7 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return ( 
-   </head>
   <body class="bg-black text-white text-center max-w-[1340px] mx-auto">
     <div class="md:flex justify-between lg:mt-8 font-bold">
       <h3>🏫Escola Tecnológica🎒</h3>
