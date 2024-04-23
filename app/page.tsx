@@ -10,6 +10,12 @@ export default function Home() {
        <Banner/>
        <Course/>
        <Footer/>
+<<<<<<< HEAD
     </div>
   )
+=======
+       
+    </div>
+  );
+>>>>>>> 242d6ea (fix: teste)
 }
