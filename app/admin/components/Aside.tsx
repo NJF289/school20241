@@ -15,12 +15,18 @@ export default function Aside({className}:any) {
                         Home
                     </Button>
                 </a>
-                <a href="/admin">
+                <a href="/admin/student">
                     <Button variant="ghost">
                         <PersonStanding/>
                         Estudante
                     </Button>
                 </a>
+                <a href="/admin/courses">
+                    <Button variant="ghost">
+                        <FolderPen/>
+                       Curso
+                    </Button>
+                    </a>
                 <h2 className="font-bold">Configuração</h2>
                 <a href="/admin">
                     <Button variant="ghost">
