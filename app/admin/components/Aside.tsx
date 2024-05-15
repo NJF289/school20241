@@ -1,7 +1,8 @@
 import Home from "@/app/page";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Book, BookAIcon, HomeIcon, PersonStanding } from "lucide-react";
+import { Book, BookAIcon, FolderPen, HomeIcon, PersonStanding } from "lucide-react";
+import { Noto_Emoji } from "next/font/google";
 
 export default function Aside({className}:any) {
     return (
@@ -20,10 +21,17 @@ export default function Aside({className}:any) {
                         Estudante
                     </Button>
                 </a>
+                <h2 className="font-bold">Configuração</h2>
                 <a href="/admin">
                     <Button variant="ghost">
                         <BookAIcon/>
                        Conta
+                    </Button>
+                </a>
+                <a href="/admin">
+                    <Button variant="ghost">
+                        <FolderPen/>
+                       Nome
                     </Button>
                 </a>
             </div>

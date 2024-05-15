@@ -23,7 +23,7 @@ export function MenuSheet() {
                 </SheetTrigger>
 
                 <SheetContent side="left">
-                    <Aside className="blok"/>
+                    <Aside className="block"/>
                 </SheetContent>
             </Sheet>
         </div>
