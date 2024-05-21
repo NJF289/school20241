@@ -5,12 +5,13 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Cable, DoorClosed, User } from "lucide-react";
 import { Label } from "@radix-ui/react-dropdown-menu";
 import { MenuNav } from "./MenuNav";
+import { MenuSheet } from "./MenuSheet";
 export default function NavBar() {
     return (
         <div className=" flex justify-between p-5 border-b-2">
 
             <img src="/img/teste.png" className=" h-[10%] w-[10%] lg:size-[13%]"></img>
-
+            <MenuSheet/>
             <MenuNav />
 
             <div className="flex space-x-4">
