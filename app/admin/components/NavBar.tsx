@@ -14,7 +14,7 @@ export default function NavBar() {
             <MenuSheet/>
             <MenuNav />
 
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 ">
                 <ModeToggle />
 
                 <DropdownMenu>
